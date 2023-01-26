@@ -15,7 +15,7 @@ prompt_seed = "The following is a conversation with an AI Beauty Consultant, Aud
 @cross_origin()
 def wrespond():
     # Openai key
-    openai.api_key = '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'
+    openai.api_key = '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'
     # Retrieve the prompt from url parameter
     wprompt = request.args.get("prompt", None)
 
