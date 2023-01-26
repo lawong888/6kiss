@@ -4,7 +4,7 @@ V0.1.1  27th January 2023  10:00pm
 
 app.py is a bot for use in Auolive project
 
-Bot takes in a post to:
+ChatBot takes in a post to:
 
 [https://auolive.herokuapp.com](https://auolive.herokuapp.com/)
 
