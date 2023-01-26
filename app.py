@@ -5,7 +5,7 @@ from flask_cors import CORS, cross_origin
 import os
 import openai
 
-# openai.api_key = os.getenv("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")
+# openai.api_key = os.getenv("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")
 app = Flask(__name__)
 CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
