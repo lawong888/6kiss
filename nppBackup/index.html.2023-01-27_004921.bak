@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>ArthurAI Bot Tester</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>ArthurAI Bot</header>
+    <form action="#">
+      <div class="row">
+        <label>Enter Question</label>
+        <textarea id="question" name="question">What are NFT? </textarea>
+        <button id="ask-btn">Ask Me</button>
+        <label>Response</label>
+        <textarea id="response"></textarea>
+      </div>
+
+      <!--Voice Selection List -->
+      <div class="row">
+        <label>Select Voice for Submission</label>
+        <div class="voice">
+          <div class="outer">
+            <select id="voice-submission"></select>
+          </div>
+          <button id="question-speak">Speak</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <label>Select Voice for Response</label>
+        <div class="voice">
+          <div class="outer">
+            <select id="voice-response"></select>
+          </div>
+          <button id="response-speak">Speak</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
