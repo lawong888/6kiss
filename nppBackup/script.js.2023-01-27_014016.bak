@@ -138,7 +138,7 @@ function speakResponse() {
 
 function aiFunction() {
 
-    let url = "https://auolive.herokuapp.com/post";
+    let url = "https://galileo-ai.herokuapp.com/post";
     let response = fetch(url + "?prompt=" + "{" + question.value + "}", {
         method: "GET",
     }).then(response => response.json())
