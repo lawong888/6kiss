@@ -47,7 +47,7 @@ def wrespond():
 #            engine="text-curie-001",
             model="text-davinci-003",
             prompt = prompt_text,
-            temperature = 0.36,
+            temperature = 0.26,
             max_tokens = 1024,
             top_p = 0.95,
             best_of = 1,
