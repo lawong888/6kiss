@@ -4,8 +4,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS, cross_origin
 import os
 import openai
-
-# openai.api_key = os.getenv("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")
+openai.api_key = os.getenv("OPENAI_API_KEY")
 app = Flask(__name__)
 CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
@@ -14,8 +13,6 @@ prompt_seed = "The following is a conversation with an AI Beauty Consultant, Aud
 @app.route('/post', methods=["POST", "GET"])
 @cross_origin()
 def wrespond():
-    # Openai key
-    openai.api_key = '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'
     # Retrieve the prompt from url parameter
     wprompt = request.args.get("prompt", None)
 
