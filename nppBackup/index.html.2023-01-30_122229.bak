@@ -10,13 +10,13 @@
 
 <body>
   <div class="wrapper">
-    <header>Auolive Beauty & Makeup AI Consultant</header>
+    <header>Auolive ChatBot</header>
     <form action="#">
       <div class="row">
-        <label>Ask me a question:</label>
+        <label>Enter Question</label>
         <textarea id="question" name="question">How to keep my face fresh and soft? </textarea>
         <button id="ask-btn">Ask Me</button>
-        <label>AudreyAI Response:</label>
+        <label>Response</label>
         <textarea id="response"></textarea>
       </div>
 
